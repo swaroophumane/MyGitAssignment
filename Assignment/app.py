@@ -8,7 +8,8 @@ def get_data():
     data = [
         {'id': 1, 'name': 'Apple'}, 
         {'id': 2, 'name': 'Banana'}, 
-        {'id': 3, 'name': 'Cherry'}
+        {'id': 3, 'name': 'Cherry'},
+        {'id': 4, 'name': 'Plum'},
         ]
     data= json.dumps(data)
     print(data)
